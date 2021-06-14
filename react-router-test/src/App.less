@@ -1,0 +1,32 @@
+@import '~antd/dist/antd.less';
+
+.app-container {
+  width: 600px;
+  margin: 100px auto;
+  .header {
+    text-align: center;
+  }
+  .main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 40px;
+    .nav-list {
+      display: flex;
+      flex-direction: column;
+      .nav-list-item {
+        height: 40px;
+        width: 100px;
+        text-align: center;
+        line-height: 40px;
+        border-radius: 4px;
+      }
+      .active {
+        background-color: skyblue;
+      }
+    }
+  }
+}
+
+.home-nav-list {
+  display: flex;
+}
